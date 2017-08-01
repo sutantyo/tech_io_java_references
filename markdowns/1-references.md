@@ -47,10 +47,12 @@ int arr[5] = {1,2,3,4,5}
 then what is the value of `arr`? Does it contain five values? How much memory space does Java
 need to allocate for the variable `arr`?
 
-![a == ???](/images/i10.svg)
+![a == ???](/images/arr.svg)
 
 You can test this in the following code snippet.
 
 @[What's the output?]({"stubs":["src/main/java/ExampleB.java"],"command": "ExampleBTest#testMain"})
 
-Some of you may find this surprising that you do not see any integers at all when you print out `arr`.
+Some of you may find it surprising that you do not see any integers at all when you print out `arr`.
+Instead you should see some strange sequence of characters such as `2d38eb89`. The actual value
+does not matter, 

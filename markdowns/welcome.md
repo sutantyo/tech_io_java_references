@@ -44,9 +44,3 @@ In contrast, the primitive data types will not have any class methods or attribu
 they are not a class. Here is a code you can play around with:
 
 @[Integer vs int]({"stubs":["src/main/java/ExampleA.java"],"command": "ExampleATest#testMain"})
-
-
-
-# Visual and Interactive Content
-
-Tech.io provides all the tools to embed visual and interactive content like a Web app or a Unix terminal within your contribution. Please refer to the [documentation](https://tech.io/doc) to learn more about the viewer integrations.
