@@ -26,11 +26,31 @@ of memory.
 
 If you declare an `int` variable, and assign a value to it, for example
 ```
-int i = 10;
+int i;
+i = 10;
 ```
-then you can
+then Java allocates 32 bits for you that you can refer to as `i`, and each time you
+use `i` in your program, Java will inspect or modify these 32 bits.
+One way to think about this is that Java creates a box for you that can contain up to 32
+bits and store the value of 10 inside it (in binary representation, but let us just
+write 10 inside the box).
 
 ![i == 10](/images/i10.svg)
 
-How about the memory required when you create an object of a Java class?
-You can create a
+This is simple enough, but how about the memory required when you create an object of a Java class?
+What if you create a class that contains two `int` variables in it?
+Before we consider Java classes, let us first see what happens when we declare an array of
+`int`. Suppose we declare an array of `int` called `arr`,
+```
+int arr[5] = {1,2,3,4,5}
+```
+then what is the value of `arr`? Does it contain five values? How much memory space does Java
+need to allocate for the variable `arr`?
+
+![a == ???](/images/i10.svg)
+
+You can test this in the following code snippet.
+
+@[What's the output?]({"stubs":["src/main/java/ExampleB.java"],"command": "ExampleBTest#testMain"})
+
+Some of you may find this surprising that you do not see any integers at all when you print out `arr`.
