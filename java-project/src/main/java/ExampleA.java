@@ -2,6 +2,7 @@
 public class ExampleA
 {
 // }
+
   public static void main(String[] args){
     Integer i = new Integer(100);
     Integer j = new Integer(50);
@@ -11,6 +12,7 @@ public class ExampleA
 
     System.out.println("Is i == j ? " + i.equals(j));
   }
-// { autofold}
+
+//{ autofold
 }
-// }
+//}
