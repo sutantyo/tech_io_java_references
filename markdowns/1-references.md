@@ -55,4 +55,6 @@ You can test this in the following code snippet.
 
 Some of you may find it surprising that you do not see any integers at all when you print out `arr`.
 Instead you should see some strange sequence of characters such as `2d38eb89`. The actual value
-does not matter, 
+does not matter,
+
+![references](/images/array.svg)
