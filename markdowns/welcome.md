@@ -7,6 +7,8 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 
 # Hands-on Demo
 
+@[Fix the following code so that the function DoSum returns a sum of integer]({"stubs": ["src/main/java/Example.java"],"command": "ExampleTest#testSum"})
+
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
