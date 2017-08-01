@@ -12,14 +12,14 @@ We are going to start with a short refreshers on data types.
 # Primitive and non-primitive data types
 
 If you have played around with Java a bit, then you have definitely encountered
-basic data types which include `int`, `char`, `float`, `double`, and `boolean`.
+basic data types which include `int`, `char`, `float`, `double`, `long`, and `boolean`.
 These data types are the basic building block that exist in most programming languages,
 and so they are often referred to as the primitive data types.
 
 The non-primitive (or composite) data types in Java include classes like `String`, `Integer`, `Character`,
 plus any class that you have written yourself.
 In fact, for each primitive type, there is a Java built-in type for it, so Java comes with built-in
-`Float`, `Double`, and `Boolean` classes as well.
+`Float`, `Double`, `Long`, and `Boolean` classes as well.
 By the way, recall that the convention in Java is to have class names starting
 with an uppercase letter.
 
