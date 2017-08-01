@@ -1,19 +1,51 @@
 # Welcome!
 
-This Java template lets you get started quickly with a simple working example using Maven and JUnit. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) document.
+In this series of exercises we are going to learn the basics of Java references with the final aim
+of creating a linked list data structure.
+
+For this tutorial, I assume that you have the basic understanding of Java classes and objects,
+and this includes being able to write your own classes.
+We are going to start with two short refreshers on data types and parameter passing.
+
+# Primitive and non-primitive data types
+
+If you have played around with Java a bit, then you have definitely encountered
+basic data types which include `int`, `char`, `float`, `double`, and `boolean`.
+These data types are the basic building block that exist in most programming languages,
+and so they are often referred to as the primitive data types.
+
+The non-primitive (or composite) data types in Java include classes like `String`, `Integer`, `Character`,
+plus any class that you have written yourself.
+In fact, for each primitive type, there is a Java built-in type for it, so Java comes with built-in
+`Float`, `Double`, and `Boolean` classes as well.
+By the way, recall that the convention in Java is to have class names starting
+with an uppercase letter.
+
+If you are using Eclipse or other IDEs with code suggestion, then you would have also noticed
+that variables of these non-primitive types have pre-defined class methods,
+triggered when you type `.` after the variable name.
+For example, all of the built-in classes like `Integer` would have the `toString()` method.
+Perhaps something even more conspicuous is that you call the constructor of these classes
+using the `new` keyword, for example:
+
+```java
+// The Integer class has a constructor that we can call to create a new
+// Integer object
+Integer i = new Integer(100);   
+
+// However, primitive objects do not have constructors
+// (or any methods/attributes for that matter)
+int i = new int(100); // syntax error
+```
+
+In contrast, the primitive data types will not have any class methods or attributes, because well,
+they are not a class. Here is a code you can play around with:
+
+@[Integer vs int]({"stubs":["src/main/java/ExampleA.java"],"command": "ExampleATest#testMain"})
+
+# Parameter passing between functions
 
 
-The source code is on [GitHub](https://github.com/TechDotIO/java-template), please feel free to come up with proposals to improve it.
-
-# Hands-on Demo
-
-@[Testing hello world]({"stubs":["src/main/java/Example.java"],"command": "ExampleTest#testMain"})
-
-@[Fix the following code so that the function DoSum returns a sum of integer]({"stubs": ["src/main/java/Example.java"],"command": "ExampleTest#testSum"})
-
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
-
-Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
 # Template Resources
 
