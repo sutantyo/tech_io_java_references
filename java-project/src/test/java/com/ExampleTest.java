@@ -16,4 +16,9 @@ public class ExampleTest {
 		int b = 240587;
 		assertEquals(example.sum(a, b), a + b);
 	}
+
+  @Test
+  public void testMain(){
+    example.main(null);
+  }
 }
