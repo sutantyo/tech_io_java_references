@@ -1,17 +1,17 @@
-# Welcome!
+# Introduction
 
 In this series of pages we are going to learn the basics of Java references with the final aim
 of creating a linked list data structure.
 This lesson is designed for a beginning computing student who is learning Java for the first time,
 and thus it covers only standard references (i.e. strong references).
 
-For this tutorial, I assume that you have the basic understanding of Java classes and objects,
-and this includes being able to write your own classes.
-We are going to start with a short refreshers on data types.
+For this tutorial, I assume that you have the basic understanding of Java classes and objects.
+
+Let us start with a short refreshers on data types.
 
 # Primitive and non-primitive data types
 
-If you have played around with Java a bit, then you have definitely encountered
+If you have played around with Java, then you have definitely encountered
 basic data types which include `int`, `char`, `float`, `double`, `long`, and `boolean`.
 These data types are the basic building block that exist in most programming languages,
 and so they are often referred to as the primitive data types.
@@ -41,6 +41,6 @@ int i = new int(100); // syntax error
 ```
 
 In contrast, the primitive data types will not have any class methods or attributes, because well,
-they are not a class. Here is a code you can play around with:
+they are not a class. Here is an example:
 
-@[Integer vs int]({"stubs":["src/main/java/ExampleA.java"],"command": "ExampleATest#testMain"})
+@[Example 1: Integer vs int]({"stubs":["src/main/java/ExampleA.java"],"command": "ExampleATest#testMain"})

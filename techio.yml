@@ -2,14 +2,14 @@ title : Introduction to Java references
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-  - title: Introduction to Java references
-    statement: markdowns/1-references.md
+  - title: Welcome  # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/1-data-types.md # Set the file path to the page content
+  - title: Java References
+    statement: markdowns/2-references.md
   - title: Passing parameters between methods
-    statement: markdowns/2-pass-by-value.md
+    statement: markdowns/3-passing-values.md
   - title: Introduction to linked lists
-    statement: markdowns/3-linked-list.md
+    statement: markdowns/4-linked-list.md
 
 
 # Settings for your programming projects and the associated Docker images
