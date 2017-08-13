@@ -87,5 +87,5 @@ actual Point itself.
 
 You can run the following code to see how this works.
 
-@[Example 2: What is stored inside an array variable?]({"stubs":["src/main/java/Point.java"],"command": "PointTest#testMain"})
+@[Example 3: Reference to an object]({"stubs":["src/main/java/Point.java"],"command": "PointTest#testMain"})
 ```
